@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="崇阳县茆瑾商贸有限公司 — 根植乡土，连接现代商贸">
+  <title>茆瑾商贸 | Maojin Trading</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="grain-overlay" aria-hidden="true"></div>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="logo">
+        <span class="logo-leaf">🌿</span>
+        <span class="logo-text" data-i18n="brand">茆瑾商贸</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#home" data-i18n="nav.home">首页</a></li>
+        <li><a href="#about" data-i18n="nav.about">关于我们</a></li>
+        <li><a href="#services" data-i18n="nav.services">业务领域</a></li>
+        <li><a href="#modern" data-i18n="nav.modern">现代商贸</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">联系我们</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+          <span class="lang-zh">中</span>
+          <span class="lang-divider">/</span>
+          <span class="lang-en">EN</span>
+        </button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-bg">
+        <div class="hero-gradient"></div>
+        <div class="hero-shapes">
+          <div class="shape shape-1"></div>
+          <div class="shape shape-2"></div>
+          <div class="shape shape-3"></div>
+        </div>
+      </div>
+      <div class="container hero-content">
+        <p class="hero-tag" data-i18n="hero.tag">根植崇阳 · 通达四方</p>
+        <h1 class="hero-title">
+          <span data-i18n="hero.title1">自然之源</span>
+          <span class="hero-title-accent" data-i18n="hero.title2">现代商贸</span>
+        </h1>
+        <p class="hero-desc" data-i18n="hero.desc">
+          崇阳县茆瑾商贸有限公司，以乡土资源为根基，以现代供应链为桥梁，让优质农产与商贸服务走向更广阔的市场。
+        </p>
+        <div class="hero-cta">
+          <a href="#services" class="btn btn-primary" data-i18n="hero.cta1">探索业务</a>
+          <a href="#contact" class="btn btn-outline" data-i18n="hero.cta2">联系我们</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num">100%</span>
+            <span class="stat-label" data-i18n="hero.stat1">品质承诺</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">24/7</span>
+            <span class="stat-label" data-i18n="hero.stat2">高效响应</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">∞</span>
+            <span class="stat-label" data-i18n="hero.stat3">可持续增长</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <span data-i18n="hero.scroll">向下探索</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag" data-i18n="about.tag">关于我们</span>
+          <h2 class="section-title" data-i18n="about.title">扎根乡土，面向未来</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-visual reveal">
+            <div class="about-image">
+              <div class="about-image-inner">
+                <svg viewBox="0 0 400 400" class="farm-illustration" aria-hidden="true">
+                  <defs>
+                    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                      <stop offset="0%" style="stop-color:#87CEAB;stop-opacity:0.3"/>
+                      <stop offset="100%" style="stop-color:#2D5A3D;stop-opacity:0.1"/>
+                    </linearGradient>
+                    <linearGradient id="fieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" style="stop-color:#5C7A4A"/>
+                      <stop offset="100%" style="stop-color:#3D5A32"/>
+                    </linearGradient>
+                  </defs>
+                  <rect width="400" height="400" fill="url(#skyGrad)"/>
+                  <ellipse cx="200" cy="320" rx="180" ry="60" fill="url(#fieldGrad)" opacity="0.6"/>
+                  <ellipse cx="200" cy="310" rx="160" ry="50" fill="#6B8F5E" opacity="0.5"/>
+                  <path d="M80 280 Q120 240 160 280 T240 280 T320 280" stroke="#4A6741" stroke-width="3" fill="none" opacity="0.7"/>
+                  <circle cx="320" cy="80" r="40" fill="#F4D03F" opacity="0.4"/>
+                  <path d="M180 200 L200 140 L220 200 Z" fill="#2D5A3D" opacity="0.8"/>
+                  <rect x="195" y="200" width="10" height="40" fill="#5C4033" opacity="0.7"/>
+                  <circle cx="120" cy="250" r="25" fill="#7A9E6B" opacity="0.6"/>
+                  <circle cx="280" cy="260" r="20" fill="#8FB07A" opacity="0.5"/>
+                </svg>
+              </div>
+              <div class="about-badge">
+                <span data-i18n="about.badge">崇阳 · 陈河水村</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-text reveal">
+            <p data-i18n="about.p1">
+              崇阳县茆瑾商贸有限公司坐落于湖北省咸宁市崇阳县天城镇陈河水村，身处鄂南山水之间，承袭一方水土的丰饶与质朴。
+            </p>
+            <p data-i18n="about.p2">
+              我们致力于将传统农业资源与现代商贸理念深度融合，以标准化、数字化、可持续的方式，构建从产地到市场的全链路服务体系。
+            </p>
+            <ul class="about-features">
+              <li>
+                <span class="feature-icon">🌾</span>
+                <div>
+                  <strong data-i18n="about.f1.title">源头直采</strong>
+                  <span data-i18n="about.f1.desc">贴近产地，保障品质与新鲜度</span>
+                </div>
+              </li>
+              <li>
+                <span class="feature-icon">🤝</span>
+                <div>
+                  <strong data-i18n="about.f2.title">诚信合作</strong>
+                  <span data-i18n="about.f2.desc">透明交易，建立长期互信关系</span>
+                </div>
+              </li>
+              <li>
+                <span class="feature-icon">📦</span>
+                <div>
+                  <strong data-i18n="about.f3.title">高效物流</strong>
+                  <span data-i18n="about.f3.desc">现代化仓储与配送网络</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag" data-i18n="services.tag">业务领域</span>
+          <h2 class="section-title" data-i18n="services.title">多元商贸，一站服务</h2>
+          <p class="section-desc" data-i18n="services.desc">从农产品流通到综合贸易，我们以专业团队与完善体系，满足多样化市场需求。</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-icon">🌱</div>
+            <h3 data-i18n="services.s1.title">农产品贸易</h3>
+            <p data-i18n="services.s1.desc">精选本地优质农产，建立标准化分级与包装体系，对接批发零售渠道。</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon">🏪</div>
+            <h3 data-i18n="services.s2.title">综合商贸</h3>
+            <p data-i18n="services.s2.desc">涵盖日用百货、物资供应等领域，为企业和个人提供灵活采购方案。</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon">🔗</div>
+            <h3 data-i18n="services.s3.title">供应链整合</h3>
+            <p data-i18n="services.s3.desc">整合上下游资源，优化采购、仓储、配送全流程，降低运营成本。</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon">🌍</div>
+            <h3 data-i18n="services.s4.title">市场拓展</h3>
+            <p data-i18n="services.s4.desc">助力本土产品走出崇阳、走向全国，开拓更广阔的商业版图。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modern Commerce -->
+    <section class="section modern" id="modern">
+      <div class="modern-bg"></div>
+      <div class="container">
+        <div class="modern-grid">
+          <div class="modern-content reveal">
+            <span class="section-tag" data-i18n="modern.tag">现代商贸</span>
+            <h2 class="section-title" data-i18n="modern.title">传统与科技的和谐共生</h2>
+            <p data-i18n="modern.p1">
+              在保留乡土温度与人文关怀的同时，我们积极拥抱数字化变革——用数据驱动决策，用平台连接供需，用标准赢得信任。
+            </p>
+            <div class="modern-features">
+              <div class="modern-feature">
+                <div class="modern-num">01</div>
+                <div>
+                  <h4 data-i18n="modern.f1.title">数字化管理</h4>
+                  <p data-i18n="modern.f1.desc">订单、库存、客户信息一体化管理，提升运营效率。</p>
+                </div>
+              </div>
+              <div class="modern-feature">
+                <div class="modern-num">02</div>
+                <div>
+                  <h4 data-i18n="modern.f2.title">品质追溯</h4>
+                  <p data-i18n="modern.f2.desc">从源头到终端全程可追溯，让每一批货物有据可查。</p>
+                </div>
+              </div>
+              <div class="modern-feature">
+                <div class="modern-num">03</div>
+                <div>
+                  <h4 data-i18n="modern.f3.title">绿色可持续</h4>
+                  <p data-i18n="modern.f3.desc">推广环保包装与低碳物流，践行Responsible Commerce。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modern-visual reveal">
+            <div class="modern-card">
+              <div class="modern-card-header">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+              <div class="modern-card-body">
+                <div class="chart-bar" style="--h: 60%"></div>
+                <div class="chart-bar" style="--h: 85%"></div>
+                <div class="chart-bar" style="--h: 45%"></div>
+                <div class="chart-bar" style="--h: 95%"></div>
+                <div class="chart-bar" style="--h: 70%"></div>
+              </div>
+              <p class="modern-card-label" data-i18n="modern.chart">业务增长趋势</p>
+            </div>
+            <div class="floating-badge badge-1">
+              <span>📈</span>
+              <span data-i18n="modern.badge1">效率提升</span>
+            </div>
+            <div class="floating-badge badge-2">
+              <span>✅</span>
+              <span data-i18n="modern.badge2">品质保障</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Values -->
+    <section class="section values">
+      <div class="container">
+        <div class="values-banner reveal">
+          <blockquote data-i18n="values.quote">
+            "让每一寸土地的价值，通过现代商贸抵达更远的地方。"
+          </blockquote>
+          <cite data-i18n="values.cite">— 茆瑾商贸</cite>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag" data-i18n="contact.tag">联系我们</span>
+          <h2 class="section-title" data-i18n="contact.title">期待与您合作</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <div class="contact-item">
+              <span class="contact-icon">🏢</span>
+              <div>
+                <strong data-i18n="contact.company.label">企业名称</strong>
+                <p data-i18n="contact.company.value">崇阳县茆瑾商贸有限公司</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📋</span>
+              <div>
+                <strong data-i18n="contact.credit.label">统一社会信用代码</strong>
+                <p>91422325MAERT11X41</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <div>
+                <strong data-i18n="contact.address.label">企业地址</strong>
+                <p data-i18n="contact.address.value">湖北省咸宁市崇阳县天城镇陈河水村五组18号（自主申报）</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">✉️</span>
+              <div>
+                <strong data-i18n="contact.email.label">电子邮箱</strong>
+                <p><a href="mailto:hongolivar.8@gmail.com">hongolivar.8@gmail.com</a></p>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form reveal" id="contactForm">
+            <div class="form-group">
+              <label for="name" data-i18n="contact.form.name">您的姓名</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email" data-i18n="contact.form.email">电子邮箱</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message" data-i18n="contact.form.message">留言内容</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" data-i18n="contact.form.submit">发送留言</button>
+            <p class="form-note" data-i18n="contact.form.note">点击发送将打开您的邮件客户端</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-leaf">🌿</span>
+        <span data-i18n="brand.full">崇阳县茆瑾商贸有限公司</span>
+      </div>
+      <p class="footer-copy">
+        <span data-i18n="footer.copy">© 2026 茆瑾商贸. 保留所有权利.</span>
+        <span class="footer-code">91422325MAERT11X41</span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
